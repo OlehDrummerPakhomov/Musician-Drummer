@@ -1,83 +1,112 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Musician Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Oleh Pakhomov - Percussionist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .profile {
+            text-align: center;
+        }
+        .profile img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            object-fit: cover;
+        }
+        .links a {
+            display: inline-block;
+            margin: 0.5rem;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            background: #333;
+            color: #fff;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .links a:hover {
+            background: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: #ff9900;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <header class="main-header">
-        <img src="assets/main-photo.jpg" alt="Main Photo" class="main-photo">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Discover the artistry of a percussionist, orchestra artist, and drummer.</p>
+    <header>
+        <h1>Oleh Pakhomov</h1>
+        <p>Professional Percussionist, Drummer, Educator</p>
     </header>
-    <nav>
+    <div class="container">
+        <div class="profile">
+            <img src="your-photo1.jpg" alt="Oleh Pakhomov">
+            <h2>Hello!</h2>
+            <p>I am a professional percussionist with extensive experience in orchestras and ensembles. My passion lies in delivering captivating performances and collaborating with talented musicians.</p>
+        </div>
+        <h3>Education</h3>
         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#photos">Photos</a></li>
-            <li><a href="#videos">Videos</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li>Ternopil Music College named after S. Krushelnytska</li>
+            <li>National Music Academy named after P. Tchaikovsky</li>
         </ul>
-    </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I am a professional percussionist with extensive experience in orchestras and ensembles. My passion lies in delivering captivating performances and collaborating with talented musicians.
-            Oleh Pakhomov
-Orchestra percussionist, drummer, educator.
-I have been playing music for more than 20 years.
-Education:
-* Ternopil Music College named after S. Krushelnytska. Class of Ihor
-Marushchak.
-* National Music Academy named after P. Tchaikovsky, class of docent,
-Honored Artist of Ukraine Oleksandr Blinov.
-Master degree .
-Laureate of Ukrainian and international competitions.
-Since the age of 16, I have been working as an orchestra artist and performing
-as a soloist.
-Worked with all the leading ensembles and orchestras of Ukraine (Academic
-Symphony Orchestra of the National TV-Radio Company "Ukraine", National
-Academic Symphonic Band of Ukraine, National Presidential Orchestra of
-Ukraine (Symphonic Orchestra, Principal Timpanist , head of the percussion
-group).
-As a guest musician, collaborated with the National Academic Symphony
-Orchestra of Ukraine, the Academic Symphony Orchestra of the National
-Philharmonic of Ukraine, the Pop Symphony Orchestra of Ukraine, the National
-Chamber Ensemble "Kyiv Soloists", the National Ensemble of Soloists "Kyiv
-Camerata Orchestra", the Classical Music Ensemble named after B.
-Lyatoshynskyi
-Since 2018, an artist of the percussion group of the symphony orchestra of the
-National Academic Opera and Ballet Theater of Ukraine named after T.
-Shevchenko.
-Fruitfully cooperate with the orchestras "Kyiv Virtuosi Orchestra", "Kyiv
-Classik", "Ukrainian Improvisation Orchestra"
-Ensemble of contemporary music "UHO"
-Also with modern Ukrainian composers.
-With pop and rock artists as a drummer and percussionist.
-Educator of Percussion Instruments at the Kyiv Academy of Arts.
-Participant of many national and international festivals 
-        </p>
-    </section>
-    <section id="photos">
-        <h2>Photos</h2>
-        <img src="assets/photo1.jpg" alt="Photo1">
-        <img src="assets/photo2.jpg" alt="Photo2">
-    </section>
-    <section id="videos">
-        <h2>Videos</h2>
-        <iframe width="560" height="315" src="https://youtube.com/shorts/ZvkV0IbMBwg?si=iTK0EQBGcVeuoTce" frameborder="0" allowfullscreen></iframe>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <ul>
-            <li>Email: <a href="mailto:pakhomovoleh@gmail.com">pakhomovoleh@gmail.com</a></li>
-            <li>Instagram: <a href="#">oleh_drums_pakhomov/</a></li>
-            <li>Facebook: <a href="#">OlehPakhomov</a></li>
-        </ul>
-    </section>
+        <h3>Experience</h3>
+        <p>More than 20 years in music, working with leading orchestras and ensembles in Ukraine.</p>
+        <h3>Social Media</h3>
+        <div class="links">
+            <a href="https://www.instagram.com/oleh_drums_pakhomov/" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/OlehPakhomov" target="_blank">Facebook</a>
+            <a href="https://groverpro.com/artist/oleh-pakhomov" target="_blank">Grover Pro Artist Page</a>
+            <a href="https://youtube.com/@olehpakhomov?si=TEisz5l_qPtBXuRq" target="_blank">YouTube Channel</a>
+        </div>
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:pakhomovoleh@gmail.com">pakhomovoleh@gmail.com</a></p>
+        <div class="profile">
+            <img src="your-photo2.jpg" alt="Oleh Pakhomov">
+        </div>
+    </div>
     <footer>
-        <p>&copy; 2024 Oleh Pakhomov Drummer/Educator/Orchestra Artist. All Rights Reserved.</p>
+        <p>&copy; 2024 Oleh Pakhomov. All rights reserved.</p>
     </footer>
 </body>
 </html>
